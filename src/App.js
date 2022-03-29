@@ -120,8 +120,8 @@ render() {
         <label htmlFor='email'>
          E-mail:
        </label>
-       {isEditDatarow? <input  type='text' name="email" id='email' value={editDatarow.email} onChange={this.hadleInputEmailChange} placeholder="test@gmail.com"></input>:
-       <input  type='text' name="email" id='email' value={inputEmail} onChange={this.hadleInputEmailChange} placeholder="test@gmail.com"></input>}
+       {isEditDatarow? <input  type='email' name="email" id='email' value={editDatarow.email} onChange={this.hadleInputEmailChange} placeholder="test@gmail.com"></input>:
+       <input  type='email' name="email" id='email' value={inputEmail} onChange={this.hadleInputEmailChange} placeholder="test@gmail.com"></input>}
       </fieldset>
       <fieldset className='modal-window__input-item'>
        <label htmlFor='date'>
