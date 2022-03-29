@@ -37,27 +37,25 @@
   }
 }
 
+td {
+  vertical-align: middle;
+}
 
-  td {
-    vertical-align: middle;
-  }
+h1 {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
 
-  h1 {
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 1200px;
-    text-align: center;
-  }
-
-  svg {
-    pointer-events: none;
-    padding: 5px;
-    width: 1.7em;
-    height: 1.7em;
-  }
-
+svg {
+  pointer-events: none;
+  padding: 5px;
+  width: 1.7em;
+  height: 1.7em;
+}
 
 .custom-table__action-btn {
   cursor: pointer;
@@ -65,64 +63,64 @@
   background: none;
   margin-right: 5px;
 }
-  
+
 .modal-window {
-    display: none;
-    background-color: antiquewhite;
-    border: 5px solid rgb(119, 119, 116);
-    width: 100%;
-    max-width: 500px;
-    height: 400px;
-    margin: 0 auto;
-    position: fixed;
-    top: 30%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+  display: none;
+  background-color: antiquewhite;
+  border: 5px solid rgb(119, 119, 116);
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  position: fixed;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 .modal-window__title {
-    margin-top: 30px;
-    margin-bottom: 40px;
-    text-align: center;
-  }
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
 
 .modal-window__inputs {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
-.modal-window__input-item, .modal-window__buttons {
-    max-width: 600px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+.modal-window__input-item,
+.modal-window__buttons {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 .modal-window__buttons {
-    margin-top: 40px;
-    justify-content: space-around;
-  }
+  margin-top: 40px;
+  justify-content: space-around;
+}
 
 .modal-window__buttons button {
-    max-width: 130px;
-    background-color: white;
-    border: 2px solid rgb(119, 119, 116);
-  }
+  max-width: 130px;
+  background-color: white;
+  border: 2px solid rgb(119, 119, 116);
+}
 
 .modal-window__input-item input {
-    width: 250px;
-    height: 30px;
-  }
+  width: 250px;
+  height: 30px;
+}
 
 .table {
-    max-width: 1400px;
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
